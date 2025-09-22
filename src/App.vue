@@ -18,10 +18,16 @@ import HelloWorld from './components/HelloWorld.vue'
   <RouterView />
 </template>
 
-<style scoped>
+<style lang="scss">
+@use '@/assets/styles/helpers' as *;
+
 header {
   line-height: 1.5;
   max-height: 100vh;
+
+  @media (--phone-small) {
+    max-height: 50vh;
+  }
 }
 
 .logo {

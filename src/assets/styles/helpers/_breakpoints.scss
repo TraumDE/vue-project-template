@@ -1,3 +1,9 @@
 $breakpoint-phone-small: 200px;
 
-@custom-media --phone-small (width >= $breakpoint-phone-small);
+@custom-media --phone-small "(width >= #{$breakpoint-phone-small})";
+
+@media screen and (min-width<500px) {
+  body {
+    height: 100px;
+  }
+}
