@@ -4,7 +4,6 @@
     "dbaeumer.vscode-eslint",
     "EditorConfig.EditorConfig",
     "esbenp.prettier-vscode",
-    "kamatte-me.css-custom-media",
     "stylelint.vscode-stylelint"
   ]
 }

@@ -8,7 +8,6 @@
   - pxtorem
 
 - Added new required vscode extensions:
-  - kamatte-me.css-custom-media
   - stylelint.vscode-stylelint
 
 - normalize css edited version of aleksanderlamkov/css-normalize
