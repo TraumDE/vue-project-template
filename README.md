@@ -23,3 +23,6 @@
 - add deploy to gh-pages
   - deploy starts if commit contains [deploy]
   - link to [page](https://traumde.github.io/vue-project-template/)
+
+- changed vite config
+  - change base path of project (changes dynamically from directory name)
