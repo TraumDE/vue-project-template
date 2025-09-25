@@ -20,4 +20,5 @@
 - normalize css edited version of [aleksanderlamkov/css-normalize](https://github.com/aleksanderlamkov/css-normalize)
 - breakpoints system made on scss mixins
 - add deploy to gh-pages
+  - deploy starts if commit contains [deploy]
   - link to [page](https://traumde.github.io/vue-project-template/)
