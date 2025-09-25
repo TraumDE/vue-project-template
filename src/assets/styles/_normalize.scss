@@ -35,13 +35,13 @@ body,
 }
 
 p {
-  --paragraphMarginBottom: 24px;
+  --paragraph-margin-bottom: 24px;
 
   margin-block: 0;
 }
 
-p:where(:not([class]):not(:last-child)) {
-  margin-bottom: var(--paragraphMarginBottom);
+p:where(:not([class], :last-child)) {
+  margin-bottom: var(--paragraph-margin-bottom);
 }
 
 img,
@@ -88,7 +88,7 @@ svg * {
 
 :where(table) {
   border-collapse: collapse;
-  border-color: currentColor;
+  border-color: currentcolor;
 }
 
 @media (prefers-reduced-motion: reduce) {
