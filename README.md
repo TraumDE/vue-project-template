@@ -9,6 +9,7 @@
 
 - Added new required vscode extensions
   - stylelint.vscode-stylelint
+  - github.vscode-github-actions
 
 - Added stylelint
   - custom rules
