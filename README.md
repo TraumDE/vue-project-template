@@ -17,5 +17,5 @@
     - standard scss config
     - standard vue config
 
-- normalize css edited version of aleksanderlamkov/css-normalize
+- normalize css edited version of [aleksanderlamkov/css-normalize](https://github.com/aleksanderlamkov/css-normalize)
 - breakpoints system made on scss mixins
