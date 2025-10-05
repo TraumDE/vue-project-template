@@ -6,6 +6,10 @@
 
 - Added Postcss with plugins
   - pxtorem
+    - Change pixels to rem in all declarations
+    - Change pixels to rem in all media queries
+  - autoprefixer
+    - Default browser list
 
 - Added new required vscode extensions
   - stylelint.vscode-stylelint
@@ -24,7 +28,9 @@
     - standard vue config
 
 - normalize css edited version of [aleksanderlamkov/css-normalize](https://github.com/aleksanderlamkov/css-normalize)
+
 - breakpoints system made on scss mixins
+
 - add deploy to gh-pages
   - deploy starts if commit contains [deploy]
   - link to [page](https://traumde.github.io/vue-project-template/)

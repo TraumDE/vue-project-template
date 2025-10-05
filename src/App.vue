@@ -24,6 +24,7 @@ import HelloWorld from './components/HelloWorld.vue'
 header {
   line-height: 1.5;
   max-height: 100vh;
+  transform: scale(1);
 
   @media (--phone-small) {
     max-height: 50vh;
