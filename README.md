@@ -14,6 +14,11 @@
 - Added stylelint
   - custom rules
     - remove error from empty files
+    - order
+      - dollar variables
+      - custom variables
+      - include scss mixins
+      - declarations
   - configs
     - standard scss config
     - standard vue config
