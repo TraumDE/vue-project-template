@@ -16,13 +16,13 @@
     "order/order": [
       "dollar-variables",
       "custom-properties",
-      "declarations",
       {
         "type": "at-rule",
         "name": "include",
         "parametr": "*",
         "hasBlock": false
-      }
+      },
+      "declarations"
     ],
     "order/properties-order": ["width", "height"]
   }
