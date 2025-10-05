@@ -20,6 +20,10 @@
 }
 
 .details {
+  $dasdsa: 12px;
+
+  --legi-on: 1px;
+
   flex: 1;
   margin-left: 1rem;
 }

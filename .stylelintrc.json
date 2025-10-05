@@ -10,7 +10,20 @@
       "extends": ["stylelint-config-standard-scss", "stylelint-config-standard-vue/scss"]
     }
   ],
+  "plugins": ["stylelint-order"],
   "rules": {
-    "no-empty-source": null
+    "no-empty-source": null,
+    "order/order": [
+      "dollar-variables",
+      "custom-properties",
+      "declarations",
+      {
+        "type": "at-rule",
+        "name": "include",
+        "parametr": "*",
+        "hasBlock": false
+      }
+    ],
+    "order/properties-order": ["width", "height"]
   }
 }
