@@ -31,3 +31,6 @@
 
 - changed vite config
   - change base path of project (changes dynamically from directory name)
+
+- add favicons with manifest for PWA
+  - website favicons generated on [favicon.io](https://favicon.io/favicon-converter/)
