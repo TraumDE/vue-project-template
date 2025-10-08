@@ -5,9 +5,7 @@ import type { Config } from 'postcss-load-config'
 
 const config: Config = {
   plugins: [
-    autoprefixer({
-      browserlist: ['defaults'],
-    }),
+    autoprefixer(),
     pxToRem({
       propList: ['*'],
       mediaQuery: true,
