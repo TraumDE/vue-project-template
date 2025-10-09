@@ -20,7 +20,7 @@
     "defaults"
   ],
   "dependencies": {
-    "vue": "^3.5.18",
+    "vue": "^3.5.22",
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
@@ -52,5 +52,6 @@
     "vite": "^7.0.6",
     "vite-plugin-vue-devtools": "^8.0.0",
     "vue-tsc": "^3.0.4"
-  }
+  },
+  "packageManager": "yarn@4.10.3"
 }

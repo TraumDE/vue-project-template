@@ -4,6 +4,8 @@
 
 - Added Scss
 
+- YarnPnP package manager
+
 - Added Postcss with plugins
   - pxtorem
     - Change pixels to rem in all declarations
@@ -14,6 +16,7 @@
 - Added new required vscode extensions
   - stylelint.vscode-stylelint
   - github.vscode-github-actions
+  - arcanis.vscode-zipfs
 
 - Added stylelint
   - custom rules
