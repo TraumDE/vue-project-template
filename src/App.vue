@@ -18,7 +18,7 @@ import HelloWorld from './components/HelloWorld.vue'
   <RouterView />
 </template>
 
-<style lang="scss">
+<style lang=" scss">
 @use '@/assets/styles/helpers' as *;
 
 header {
