@@ -11,17 +11,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Setup Yarn PnP
+        uses: Araxeus/setup-yarn-pnp-action@v1
         with:
           node-version: '22'
-          cache: 'yarn'
-
-      - name: Enable Corepack
-        run: corepack enable
-
-      - name: Install dependencies
-        run: yarn install --immutable
 
       - name: Build project
         run: yarn build
