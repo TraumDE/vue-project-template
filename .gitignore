@@ -37,3 +37,5 @@ coverage
 !.yarn/versions
 
 .pnp.*
+
+.vue/*

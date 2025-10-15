@@ -8,5 +8,8 @@
     "paths": {
       "@/*": ["./src/*"]
     }
+  },
+  "vueCompilerOptions": {
+    "globalTypesPath": "./.vue/types.d.ts"
   }
 }
