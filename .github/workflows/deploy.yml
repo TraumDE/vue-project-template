@@ -15,7 +15,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-          cache: 'yarn' # всё ещё можно кэшировать
+          cache: 'yarn'
 
       - name: Enable Corepack
         run: corepack enable
